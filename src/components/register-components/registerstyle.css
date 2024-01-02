@@ -1,0 +1,88 @@
+
+#register {
+    width: 40%;
+    margin: 3% auto;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 0px 25px 10px #F8F8FB;
+} 
+
+#register  h2 {
+    font-size: 32px;
+    color: forestgreen; 
+    font-weight: 600;
+}
+
+#register .form-group input {
+    width: 80%;
+    height: 40px;
+    margin: 0px auto;
+    border: 1px solid lightgray; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px #F8F8FB;
+    padding-left: 5px;
+}
+
+#register .form-group input:focus {
+    border: 1px solid forestgreen;
+    outline: none;
+    padding: 0 10px;
+}
+
+#register .form-group input::placeholder {
+    padding: 0 10px;
+}
+
+#register .btn  {
+    width: 100%;
+}
+
+#register .btn button {
+    background-color: white;
+    border: 1px solid forestgreen;
+    border-radius: 2px;
+    color: forestgreen;    
+    padding: 5px 7px;
+    outline: none;
+    width: 84%;
+}
+
+#register .btn button:hover {
+    background-color: forestgreen;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#register .lower button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: forestgreen;    
+    padding: 3px 5px;
+    outline: none;
+}
+
+#register .lower button:hover {
+    background-color: forestgreen;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1030px) {
+    #register {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    #register {
+        width: 80%;
+    }
+}

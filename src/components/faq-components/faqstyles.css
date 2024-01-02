@@ -1,0 +1,220 @@
+
+#faq-page .container {
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 25px 5px rgba(246, 246, 253, 0.5);
+    margin: 4% auto;
+    padding: 0;
+    display: flex;
+}
+
+#faq-page .faq-left {
+    width: 50%;
+    padding: 20px;
+}
+
+#faq-page .faq-left .faq-left-box {
+    margin-top: 30px;
+}
+
+#faq-page .faq-left h2 {
+    color: indigo;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+#faq-page .faq-left h4 {
+    color: lightslategray;
+    /* text-shadow: 1px 1px black; */
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+#faq-page .faq-left p {
+    font-size: 14px;
+}
+
+#faq-page .faq-right {
+    width: 50%;
+    padding: 20px;
+}
+
+#faq-page .faq-right .faq-form {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 80%;
+    margin-top: 30px;
+}
+
+#faq-page .faq-right h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: indigo;
+    padding-top: 30px;
+}
+
+#faq-page .faq-right .form-group input {
+    width: 60%;
+    height: 40px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#faq-page .faq-right .form-group input:focus {
+    border: 1px solid forestgreen;
+    outline: none;
+}
+
+#faq-page .faq-right .form-group input::placeholder {
+    padding: 5px;
+}
+
+#faq-page .faq-right .form-group textarea {
+    width: 60%;
+    height: 100px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#faq-page .faq-right .form-group textarea:focus {
+    border: 1px solid forestgreen;
+    outline: none;
+}
+
+#faq-page .faq-right .form-group textarea::placeholder {
+    padding: 5px;
+}
+
+#faq-page .faq-right .form-btn {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#faq-page .faq-right .form-btn button {
+    background-color: forestgreen;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px !important;
+}
+
+#faq-page .faq-right .form-btn button:hover {
+    opacity: 0.9;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+} 
+
+#faq-page .faq-right .form-btn button:active {
+    outline: none;
+}
+
+.faq-msg {
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 770px) {
+    #faq-page .faq-right .faq-form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #faq-page .faq-left h2 {
+        font-size: 22px;
+    }
+    
+    #faq-page .faq-left h4 {
+        font-size: 16px;
+    }
+    
+    #faq-page .faq-left p {
+        font-size: 12px;
+    }
+
+    #faq-page .faq-right h3 {
+        font-size: 16px;
+    }
+    
+    #faq-page .faq-right .form-group input {
+        width: 90%;
+    }
+
+    #faq-page .faq-right .form-group textarea {
+        width: 90%;
+    }
+
+    #faq-page .faq-right .form-btn button {
+        padding: 5px 7px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    #faq-page .faq-right h3 {
+        font-size: 18px;
+    }
+
+    .faq-msg {
+        font-size: 12px;
+        padding: 5px 10px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #faq-page .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #faq-page .faq-left {
+        width: 100%;
+    }
+
+    #faq-page .faq-right {
+        width: 100%;
+    }
+
+    #faq-page .faq-right .form-group input {
+        width: 90%;
+    }
+
+    #faq-page .faq-right .form-group textarea {
+        width: 90%;
+    }
+
+    .faq-msg {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #faq-page .faq-left h2 {
+        font-size: 20px;
+    }
+    
+    #faq-page .faq-left h4 {
+        font-size: 14px;
+    }
+    
+    #faq-page .faq-left p {
+        font-size: 11px;
+    }
+
+    #faq-page .faq-right h3 {
+        font-size: 20px;
+    }
+  
+    #faq-page .faq-right .form-btn button {
+        padding: 5px 7px;
+    }
+
+}

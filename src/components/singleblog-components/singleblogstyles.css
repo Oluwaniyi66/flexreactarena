@@ -1,0 +1,443 @@
+
+#blog-page .single-blog-middle .container {
+    border: 1px solid lightgray;
+} 
+ 
+#blog-page .single-blog-middle .blog-video-image {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#blog-page .single-blog-middle .blog-video-image .blog-video-left {
+    position: relative;
+    padding: 10px;
+}
+
+#blog-page .single-blog-middle .blog-video-image .blog-video-left a {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+}
+
+#blog-page .single-blog-middle .blog-video-image .blog-video-left a i {
+    font-size: 60px;
+    color: white;
+}
+
+#blog-page .single-blog-middle .blog-video-left .blog-video-image {
+    width: 380px;
+    height: 220px;
+}
+
+#blog-page .single-blog-middle .blog-video-left .blog-video-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#blog-page .single-blog-middle .blog-image-right {
+    width: 380px;
+    height: 220px;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+#blog-page .single-blog-middle .blog-image-right img {
+    width: 100%;
+    height: 100%;
+}
+
+#blog-page .single-blog-middle .blog-video-below {
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#blog-page .single-blog-middle .blog-text-remainder {
+    padding: 15px;
+}
+
+#blog-page .single-blog-middle .blog-products-adverts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#blog-page .single-blog-middle .product-advert {
+    border: 1px solid lightgray;
+    width: 22%;
+    margin: 15px 10px;
+}
+
+#blog-page .single-blog-middle .product-advert-image {
+    width: 100%;
+    height: 170px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog-page .single-blog-middle .product-advert-image img {
+    width: 80%;
+    height: 80%;
+}
+
+#blog-page .single-blog-middle .product-advert h4 {
+    color: indigo;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#blog-page .single-blog-middle .product-advert .product-advert-prices {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-size: 14px; */
+}
+
+#blog-page .single-blog-middle .product-advert .product-advert-prices h5 {
+    font-size: 12px;
+}
+
+#blog-page .single-blog-middle .product-advert .product-advert-prices .product-review {
+    margin-top: -7px;
+}
+
+#blog-page .single-blog-middle .product-advert .product-advert-prices .product-discount {
+    color: #FC45A0;
+    text-decoration: line-through;
+}
+
+#blog-page .single-blog-middle .product-advert .product-advert-prices i {
+    font-size: 12px;
+    color: #FFD659;
+}
+
+#blog-page .single-blog-middle .blog-single-social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#blog-page .single-blog-middle .blog-single-social-media .blog-social {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    color: white;
+    margin: 5px;
+}
+
+#blog-page .single-blog-middle .blog-single-social-media .blog-social i {
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+#blog-page .single-blog-middle .blog-single-social-media .blog-social.facebook {
+    background-color: #5625DF;
+}
+
+#blog-page .single-blog-middle .blog-single-social-media .blog-social.instagram {
+    background-color: #FF27B7;
+} 
+
+#blog-page .single-blog-middle .blog-single-social-media .blog-social.twitter {
+    background-color: #37DAF3;
+} 
+
+#blog-page .single-blog-middle .blog-single-navigators {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+#blog-page .single-blog-middle .blog-single-navigators .blog-pagination {
+    display: flex;
+}
+
+#blog-page .single-blog-middle .blog-single-navigators .blog-nav {
+    display: flex;
+    color: indigo;
+}
+
+#blog-page .single-blog-middle .blog-single-navigators .blog-nav:hover {
+    cursor: pointer;
+}
+
+#blog-page .single-blog-middle .blog-single-navigators .blog-nav i {
+    margin-top: 7px;
+}
+
+#blog-page .single-blog-middle .blog-single-navigators .blog-nav i.prev {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#blog-page .single-blog-middle .blog-single-navigators .blog-nav i.next {
+    margin-right: 10px;
+    margin-left: 10px;
+} 
+
+#blog-page .single-blog-middle .blog-comments-section .blog-single-comment {
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 17.0038px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    width: 80%;
+    margin: 30px 10px;
+    display: flex;
+}
+
+#blog-page .single-blog-middle .blog-comments-section .blog-single-comment .blog-comment-text {
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+#blog-page .single-blog-middle .blog-comments-section .blog-single-comment .blog-comment-author-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog-page .single-blog-middle .blog-comments-section .blog-single-comment .blog-comment-author-date h6 {
+    margin-top: 4px;
+}
+
+#blog-page .single-blog-middle .blog-comments-section .blog-comment-image-main {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+} 
+
+#blog-page .single-blog-middle .blog-comments-section .blog-comment-image-main img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#blog-page .single-blog-middle .blog-comments-section h4 {
+    color: indigo;
+    font-size: 18px;
+    font-weight: 600;
+} 
+
+#blog-page .single-blog-middle .blog-comments-section h6 {
+    color: forestgreen;
+    font-size: 12px;
+} 
+
+#blog-page .single-blog-middle .blog-comment-box {
+    border: 1px solid lightgray;
+    width: 80%;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-bottom: 5%;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-group input {
+    width: 48%;
+    height: 50px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-group input:focus {
+    border: 1px solid forestgreen;
+    outline: none;
+    padding: 5px;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-text-area textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-text-area textarea:focus {
+    border: 1px solid forestgreen;
+    padding: 5px;
+    outline: none;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .checkbox-section {
+    display: flex;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .checkbox-section input {
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .checkbox-section p {
+    color: forestgreen;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-btn {
+    padding: 0;
+    width: 100%;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-btn button {
+    background-color: forestgreen;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    margin-bottom: 2%;
+}
+
+#blog-page .single-blog-middle .blog-comment-box .form-btn button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.comment-condition {
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightslategray;
+    padding: 10px 15px;
+}
+
+.comment-condition a {
+    color: forestgreen;
+}
+
+
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  */
+@media screen and (max-width: 770px) {
+    #blog-page .single-blog-middle .product-advert {
+        border: 1px solid lightgray;
+        width: 46%;
+        margin: 15px 10px;
+    }
+
+    #blog-page .single-blog-middle .blog-video-image .blog-video-left a {
+        position: absolute;
+        top: 32%;
+        left: 40%;
+    }
+    
+    #blog-page .single-blog-middle .blog-video-image .blog-video-left a i {
+        font-size: 60px;
+        color: white;
+    }
+    
+    #blog-page .single-blog-middle .blog-video-left .blog-video-image {
+        width: 240px;
+        height: 220px;
+    }
+    #blog-page .single-blog-middle .blog-image-right {
+        width: 240px;
+        height: 220px;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    #blog-page .single-blog-middle .blog-video-image {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #blog-page .single-blog-middle .blog-video-left .blog-video-image {
+        width: 100%;
+        height: 220px;
+    }
+    #blog-page .single-blog-middle .blog-image-right {
+        width: 100%;
+        height: 220px;
+    }
+
+    #blog-page .single-blog-middle .product-advert {
+        border: 1px solid lightgray;
+        width: 43%;
+    }
+    
+    #blog-page .single-blog-middle .product-advert-image {
+        width: 100%;
+        height: 140px;
+    }
+
+    #blog-page .single-blog-middle .product-advert .product-advert-prices {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #blog-page .single-blog-middle .blog-comments-section h4 {
+        color: indigo;
+        font-size: 16px;
+    } 
+
+    #blog-page .single-blog-middle .blog-comments-section .blog-comment-image {
+        width: 100px;
+        height: 80px;
+    }
+
+    #blog-page .single-blog-middle .blog-comments-section .blog-single-comment .blog-comment-text {
+        margin-left: 20px;
+        padding-top: 5px;
+    }
+
+    #blog-page .single-blog-middle .blog-comments-section .blog-single-comment {
+        width: 92%;
+    }
+
+    #blog-page .single-blog-middle .blog-comment-box {
+        width: 92%;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    #blog-page .single-blog-middle .product-advert {
+        border: 1px solid lightgray;
+        width: 42%;
+    }
+    
+    #blog-page .single-blog-middle .product-advert-image {
+        width: 100%;
+        height: 120px;
+    }
+
+    #blog-page .single-blog-middle .blog-comments-section .blog-comment-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    #blog-page .single-blog-middle .blog-comment-box .form-btn button {
+        font-size: 14px;
+    }
+    
+
+}
+
+@media screen and (max-width: 330px) {
+    #blog-page .single-blog-middle .product-advert {
+        border: 1px solid lightgray;
+        width: 100%;
+    }
+    
+    #blog-page .single-blog-middle .product-advert-image {
+        height: 140px;
+    }
+
+    #blog-page .single-blog-middle .blog-comments-section h4 {
+        font-size: 14px;
+    } 
+
+    #blog-page .single-blog-middle .blog-comment-box .form-btn button {
+        font-size: 12px;
+    }
+}

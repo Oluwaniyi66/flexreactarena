@@ -1,0 +1,93 @@
+.modal-section {
+    width: 100%;
+    padding: 50px 170px;
+}
+
+.modal-section-inner {
+    display: flex;
+    position: relative;
+}
+
+.left,
+.right {
+    width: 100%;
+}
+
+.left,.right {
+    position: relative;
+}
+
+.left-text {
+    margin-left: 44px;
+    position: absolute;
+    bottom: 19px;
+}
+
+.left-text h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.left-text h3 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFC808;
+}
+
+.image {
+    width: 383px;
+    height: 373px;
+    /* border: 3px solid forestgreen; */
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 919px;
+    padding: 50px 150px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.content-text {
+    font-size: 18px;
+}
+
+.content-number h1 {
+    size: 50px;
+    color: #C9F2D2;
+    font-weight: 800;
+}
+
+.controllers {
+    width: 100%;
+    width: 919px;
+    padding: 50px 70px;
+    position: absolute;
+    top: 25%;
+    left: -45.8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-btn {
+    border: 1px solid ;
+    padding: 4px 8px;
+    border: 1px solid #088121;
+    border-radius: 4px;
+}
+
+.control-btn:hover {
+    background-color: #088121;
+    color: white;
+    cursor: pointer;
+}

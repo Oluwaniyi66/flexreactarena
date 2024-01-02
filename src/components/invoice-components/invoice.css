@@ -1,0 +1,187 @@
+
+
+/* PREVIEW INVOICE PREVIEW INVOICE  */
+#preview-invoice {
+    background-color: #fafafa;
+    padding: 3% 0;
+    margin-bottom: 3%;
+}
+
+#preview-invoice .preview-container {
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto; 
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 0.7;
+    display: flex;
+    justify-content: space-between;
+}
+
+#preview-invoice .preview-container .preview-left {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+} 
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-company-image {
+    border: 1px solid lightgray;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-company-image img {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 100%; */
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-sect-1-left {
+    text-align: left;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-company-detalls {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-company-detalls h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+    color: forestgreen;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-sect-1-right {
+    width: 20%;
+    padding-top: 70px;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-sect-1-right h4 {
+    color: #3B3F5C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-sect-1-right .invoice {
+    display: flex;
+    justify-content: space-between;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-2 {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-2 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3B3F5C;
+} 
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-2 h4,h6 {
+    color: #3B3F5C;
+    margin-bottom: 25px;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-2 .preview-sect-1-right {
+    width: 100%;
+    margin-top: 20px;
+} 
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-2 .preview-sect-1-right .client-details-left .client {
+    display: flex;
+    justify-content: space-between;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-3 .table-quantities {
+    padding: 15px;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-3 .table-quantities table {
+    width: 100%;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-3 .table-quantities table th {
+    color: #3B3F5C;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    background-color: whitesmoke;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-3 .table-quantities table td {
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-4 .table-calculations {
+    text-align: right;
+    padding: 15px;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-4 .preview-calc-item {
+    width: 30%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-4 .preview-calc-item h4 {
+    font-size: 18px;
+    color: #3B3F5C;
+    font-weight: 600;
+}
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-4 .preview-calc-item p {
+    padding-top: 5px;
+} 
+
+#preview-invoice .preview-container .preview-left .preview-left-sect-5 h4 {
+    color: #3B3F5C;
+    border-top: "1px solid lightgrey"; 
+    padding: "10px";
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  */
+@media screen and (max-width: 770px) {
+    #preview-invoice .preview-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #preview-invoice  .preview-left-sect-3 .table-quantities {
+        overflow-x: scroll;
+    }
+
+    #preview-invoice .preview-container .preview-left .preview-left-sect-4 .preview-calc-item {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    #preview-invoice .preview-container .preview-left .preview-left-sect-1 .preview-sect-1-right .invoice {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+

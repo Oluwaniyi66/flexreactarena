@@ -1,0 +1,184 @@
+
+#cart {
+    border: 1px solid lightgray;
+    display: flex;
+    padding: 20px;
+    line-height: 1;
+}
+
+#cart .left {
+    width: 100%;
+    border: 1px solid whitesmoke;
+}
+
+#cart .left table {
+    width: 100%;
+}
+
+#cart .left table tr { 
+    border: 1px solid whitesmoke;
+}
+
+#cart .left table th {
+    font-size: 20px;
+    color: indigo;
+}
+
+#cart .left table td h3 {
+    color: forestgreen;
+    font-size: 16px;
+}
+
+#cart .left table td h4 {
+    text-align: center;
+}
+
+#cart .left table td h4,p {
+    color: lightslategray;
+    font-size: 14px;
+}
+
+#cart .left table th,td {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+}
+
+#cart .left table .product {
+    display: flex;
+}
+
+#cart .left table .product .image {
+    height: 100px;
+    width: 100px;
+}
+
+#cart .left table .product .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#cart .left table .product .text {
+    margin-left: 25px;
+}
+
+#cart .left .cart-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart .left .cart-options .btn button {
+    background-color: white;
+    border: 1px solid forestgreen;
+    border-radius: 2px;
+    color: forestgreen;    
+    padding: 5px 7px;
+    outline: none;
+}
+
+#cart .left .cart-options .btn button:hover {
+    background-color: forestgreen;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 770px) {
+    #cart {
+        flex-wrap: wrap;
+    }
+
+    #cart .left {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    #cart .right {
+        display: flex;
+        width: 100%;
+        padding-top: 0;
+    }
+
+    #cart .right .top-section {
+        width: 48%;
+    }
+
+    #cart .right .bottom-section {
+        width: 48%;
+        margin-left: 5%;
+        margin-top: -0.2%;
+    }
+
+    #cart .right .bottom-section .form-group input {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #cart {
+        flex-wrap: wrap;
+    }
+
+    #cart .left {
+        width: 100%;
+    }
+
+    #cart .right {
+        display: flex;
+        width: 100%;
+        padding-top: 0;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    #cart .right .top-section {
+        width: 48%;
+    }
+
+    #cart .right .bottom-section {
+        width: 48%;
+        margin-left: 5%;
+        margin-top: -0.2%;
+    }
+
+    #cart .right .top-section .btn button {
+        font-size: 12px;
+    }
+
+    #cart .right .bottom-section .btn button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #cart .left table th {
+        font-size: 16px;
+    }
+
+    #cart .left table td h3 {
+        font-size: 14px;
+    }
+    
+    #cart .left table td h4,p {
+        color: lightslategray;
+        font-size: 12px;
+    }
+
+    #cart .right .top-section .cart h4 {
+        font-size: 14px;
+    }
+
+    #cart .right h2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #cart .right .top-section .btn button {
+        font-size: 10px;
+    }
+
+    #cart .right .bottom-section .btn button {
+        font-size: 10px;
+    }
+}

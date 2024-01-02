@@ -1,0 +1,258 @@
+
+
+/* HEADER SECTION HEADER SECTION  */
+#main-header2 {
+    position: relative;
+}
+
+#main-header2 .bars {
+    position: absolute;
+    height: 50px;
+    width: 70px; 
+    top: 75%;
+    left: 14%;
+} 
+
+#main-header2 .bars2 {
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    top: 1%;
+    left: 76%;
+}
+
+#main-header2 .bars img {
+    width: 100%;
+    height: 100%;
+}
+
+#main-header2 .bars2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.addproduct-header {
+    background-color: whitesmoke;
+    border-bottom: 3px solid forestgreen;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.addproduct-header .container {
+    height: 40vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addproduct-header .container .inner .middle h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: lightslategray;
+}
+
+.addproduct-header .container .inner .middle p {
+    font-size: 16px;
+}
+
+.addproduct-header .container .inner .middle .middle-inner span {
+    color: forestgreen;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* CREATE PRODUCT SECTION  */
+#create-product .add-product {
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 3% auto;
+}
+
+#create-product form {
+    background-color: whitesmoke;
+}
+
+#create-product .add-product .form-group {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 5px 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+#create-product .add-product .form-group input {
+    width: 300px;
+    height: 35px;
+    border: 1px solid lightgray;
+}
+
+#create-product .add-product .form-group select {
+    height: 35px;
+    width: 300px;
+}
+
+#create-product .add-product .form-group textarea {
+    height: 100px;
+    width: 300px;
+    border: 1px solid lightgray;
+}
+
+#create-product .productform-header {
+    text-align: center;
+    background-color: lightslategray;
+    padding: 15px;
+}
+
+#create-product .productform-header h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#create-product form label {
+    color: indigo;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+
+#create-product .add-product .form-text {
+    padding: 10px;
+}
+
+#create-product .add-product .form-text b {
+    color: indigo;
+    font-size: 16px;
+}
+
+#create-product .add-product .form-text h4 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#create-product .add-product .product-btn {
+    text-align: center;
+    margin: 3% auto;
+}
+
+#create-product .add-product .product-btn button {
+    background-color: white;
+    color: forestgreen;
+    border: 1px solid forestgreen;
+    font-size: 19px;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+#create-product .add-product .product-btn button:hover {
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+@media screen and (max-width: 1030px) {
+    #create-product .add-product .form-group input {
+        width: 250px;
+    }
+    
+    #create-product .add-product .form-group select {
+        width: 250px;
+    }
+    
+    #create-product .add-product .form-group textarea {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #create-product .add-product {
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width: 430px) {
+    #create-product .add-product {
+        margin: 0 auto;
+    }
+
+    #create-product {
+        background-color: lightslategray;
+    }
+
+    #create-product .add-product {
+        width: 100%;
+    }
+
+    .addproduct-header .container .inner .middle h2 {
+        font-size: 28px;
+    }
+
+    #create-product .productform-header h2 {
+        font-size: 22px;
+    }
+
+    #create-product form label {
+        color: lightslategray;
+    }
+
+    #create-product .add-product .form-group {
+        flex-direction: column;
+    }
+
+    #create-product .add-product .form-group input {
+        width: 100%;
+    }
+    
+    #create-product .add-product .form-group select {
+        width: 100%;
+    }
+    
+    #create-product .add-product .form-group textarea {
+        width: 100%;
+    }
+
+    #create-product .add-product .form-text h4 {
+        color: lightslategray;
+    }
+
+    #create-product .add-product .product-btn button {
+        font-size: 16px;
+        padding: 7px 10px;
+        background-color: lightslategray;
+        color: white;
+        border: none;
+    }
+
+    #create-product .add-product .product-btn button:hover {
+        background-color: lightslategray;
+        opacity: 0.9;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .addproduct-header .container .inner .middle h2 {
+        font-size: 24px;
+    }
+
+    #create-product .productform-header h2 {
+        font-size: 20px;
+    }
+
+    #create-product form label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

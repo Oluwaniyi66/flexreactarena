@@ -1,0 +1,91 @@
+
+#order {
+    position: relative;
+}
+
+#order .icons {
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17%;
+}
+
+#order .icons .icon {
+    height: 50px;
+    width: 50px;
+}
+
+#order .icons .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#order .icons .clock {
+    position: absolute;
+    top: 42%;
+    left: 19%;
+}
+
+#order .icons .complete {
+    position: absolute;
+    top: 14%;
+    left: 47%;
+}
+
+#order .text {
+    border: 2px solid whitesmoke;
+    width: 60%;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+#order .text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: forestgreen;
+    text-align: center;
+}
+
+#order .text p {
+    font-size: 16px;
+    color: lightslategray;
+    text-align: center;
+    margin-top: 5%; 
+}
+
+#order .text .btn {
+    display: flex;
+    justify-content: center;
+}
+
+#order .text .btn button {
+    background-color: white;
+    border: 1px solid forestgreen;
+    border-radius: 2px;
+    color: forestgreen;    
+    padding: 5px 7px;
+    outline: none;
+}
+
+#order .text .btn button:hover {
+    background-color: darkgreen;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 430px) {
+    #order .text {
+        width: 90%;
+    }
+
+    #order .icons .clock {
+        top: 42%;
+        left: 3%;
+    }
+    
+    #order .icons .complete {
+        top: 13%;
+        left: 44%;
+    }
+}

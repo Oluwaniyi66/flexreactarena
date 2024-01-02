@@ -1,0 +1,260 @@
+
+
+#about-us .container {
+    /* box-shadow: 3px 3px 2px whitesmoke; */
+    margin: 6% auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#about-us .about-left .about-left-image {
+    width: 31.25rem;
+    height: 28.12rem;
+}
+
+#about-us .about-left .about-left-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#about-us .about-right {
+    padding-top: 8%;
+    padding-left: 20px;
+}
+
+#about-us .about-right h2 {
+    color: indigo;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+#about-us .about-right .about-right-btn {
+    margin-top: 5%;
+}
+
+#about-us .about-right .about-right-btn a {
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    padding: 7px 12px;
+    color: forestgreen;
+    background-color: white;
+}
+
+#about-us .about-right .about-right-btn a:hover {
+    text-decoration: none;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ABOUT FEATURES ABOUT FEATURES  */
+#about-features .container {
+    /* border: 1px solid whitesmoke; */
+    /* box-shadow: 3px 3px 2px whitesmoke; */
+    margin: 3% auto;
+    width: 100%;
+    padding: 0;
+}
+
+#about-features .about-features-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-features .about-features-card {
+    width: 23%;
+    margin: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+    border-radius: 8px;
+}
+
+#about-features .about-header h2 {
+    color: indigo;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    margin: 25px auto;
+}
+
+#about-features .about-image {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+}
+
+#about-features .about-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#about-features .about-title h4 {
+    font-size: 22px;
+    color: indigo;
+}
+
+
+/* ABOUT CLIENTS ABOUT CLIENTS */
+#about-clients {
+    background-color: whitesmoke;
+    margin: 3% auto;
+    height: 52vh;
+}
+
+#about-clients .container {
+    padding-top: 40px;
+}
+
+#about-clients .about-client-images {
+    display: flex;
+    justify-content: center;
+}
+
+#about-clients .about-client-images .about-client-images-item {
+    border: 1px solid lightgray;
+    height: 100px;
+    width: 100px;
+    margin: 7px;
+}
+
+#about-clients .about-client-images .about-client-images-item.middle {
+    margin-top: -5px;
+}
+
+#about-clients .about-client-images .about-client-images-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#about-clients .about-client-details h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: indigo;
+    margin: 5px auto;
+    text-align: center;
+}
+
+#about-clients .about-client-details p {
+    font-size: 12px;
+    color: forestgreen;
+    text-align: center;
+}
+
+#about-clients .about-client-comment {
+    width: 50%;
+    margin: 10px auto;
+}
+
+#about-clients .about-client-comment p {
+    font-size: 16px;
+    text-align: center;
+}
+
+#about-clients .carousel-inner {
+    margin-bottom: 70px;
+}
+
+
+
+
+@media screen and (max-width: 1030px) {
+    #about-us .container {
+        width: 100%;
+    }
+
+    #about-us .about-right {
+        padding-right: 20px;
+    }
+
+    #about-features .about-features-card {
+        width: 22.7%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #about-us .about-right h2 {
+        font-size: 26px;
+    }
+
+    #about-features .about-features-card {
+        width: 30%;
+    }
+
+    #about-clients {
+        height: 60vh;
+    }
+
+    #about-us .about-left .about-left-image {
+        width: 27.25rem;
+        height: 24.12rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #about-us .container {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    #about-us .about-right h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #about-us .about-left .about-left-image {
+        width: 90vw;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    #about-us .about-right .about-right-btn {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    #about-features .about-features-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-features .about-features-card {
+        width: 94vw;
+    }
+
+    #about-clients .about-client-images .about-client-images-item {
+        height: 70px;
+        width: 70px;
+    }
+
+    #about-clients .about-client-details h4 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    #about-us .about-left .about-left-image {
+        height: 200px;
+    }
+
+    #about-us .about-right h2 {
+        font-size: 20px;
+    }
+
+    #about-clients {
+        height: 65vh;
+    }
+
+    #about-clients .about-client-comment {
+        width: 70%;
+    }
+}

@@ -1,0 +1,35 @@
+
+
+#pagination .list-box {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    padding: 15px;
+}
+
+#pagination .list-box li {
+    list-style: none;
+    border: 1px solid lightgray;
+    margin: 5px; 
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#pagination .list-box li a {
+    color: forestgreen;
+}
+
+#pagination .list-box li:hover {
+    cursor: pointer;
+    background-color: forestgreen;
+}
+
+#pagination .list-box li:hover > a {
+    color: white;
+}
+
+@media screen and (max-width: 430px) {
+    #pagination .list-box {
+        margin-left: -54%;
+    }
+}
